@@ -10,7 +10,7 @@ Pipeline {
      checkout([
         $class: 'GitSCM',
         branches: [[name: 'main']],
-        userRemoteConfigs: [[credentialsId: 'Arshu1997!',url: '']]])
+        userRemoteConfigs: [[credentialsId: 'Arshu1997!',url: 'https://github.com/Dwarakdev/fire.git']]])
     }
   }
   stage('shell command') {
